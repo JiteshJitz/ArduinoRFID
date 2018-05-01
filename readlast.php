@@ -2,7 +2,7 @@
 
 include "config.php";    
 
-    $sql = "SELECT RFIDTag FROM rfidtag WHERE id=1";
+    $sql = "SELECT RFIDTag FROM rfidtag";
     $result = $conn->query($sql);
     $data="";
     if (mysqli_num_rows($result) > 0) {
